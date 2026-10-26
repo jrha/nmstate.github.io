@@ -6,7 +6,7 @@ Interface alternative name is a kernel property of network interface which is
 treated equally to the interface kernel name by the netlink protocol.
 
 Unlike the kernel interface name limitation of 15 characters, interface alternative names
-are limited to 255 characters (although this could be changed in the future by the kernel team).
+are limited to 127 characters (although this could be changed in the future by the kernel team).
 
 Like kernel interface name, alternative name should unique among all interface
 names and all alternative names. Nmstate will raise an error otherwise.
